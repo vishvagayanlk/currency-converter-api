@@ -108,8 +108,8 @@ With this architecture, the Redis Cache serves as a fast and efficient buffer, r
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone git@github.com:vishvagayanlk/currency-converter-api.git
+cd currency-converter-api
 ```
 
 2. Run docker compose file to up and run redis
