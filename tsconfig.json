@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true /* Enable all strict type-checking options. */,
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "outDir": "./dist"
+  },
+  "include": [
+    "./tests/**/*",
+    "./src/**/*",
+    "tests/unit/currency-conveter-service.spec.ts",
+    "tests/integration/open-exchanges-convertor.int.ts"
+  ],
+  "exclude": ["node_modules"]
+}
